@@ -1,0 +1,19 @@
+USE CASE: mediation
+1. You receive from (for now) unknow source request
+   to mediate a file.
+2. Request will contain address (IP or URL), protocol,
+   port, and file name.
+3. You have to download this file.
+4. File format is for now csv but it can change (xml, json...)
+5. File contains configuration for some other machines.
+6. File has to be splitted to several files dedicated for
+   some machines.
+7. Rules how to split particular formats will be defined in
+   later phase.
+8. File just contains some canonical name of machine, addresses
+   of those machines are stored in data base (DB).
+9. Type of DB is not know yet.
+10. Each file for each machine has to be put to machines file
+    server.
+11. File server address, protocol, port and location are also
+    stored in DB.
