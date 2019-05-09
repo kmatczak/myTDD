@@ -1,4 +1,4 @@
-GTEST_PATH = /home/test/TDD_trainig/googletest/googletest
+GTEST_PATH = ../googletest/googletest
 SOURCES = ../mediator/mediator.cpp mediator_test.cpp $(GTEST_PATH)/src/gtest-all.cc
 OUT = mediator_test
 
